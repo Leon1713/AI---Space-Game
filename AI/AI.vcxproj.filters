@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{278f3b6e-a7e9-442d-995b-03f6a0449378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{a60b3c87-f239-49db-a0e1-7dbad657e319}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LoadOBJ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LoadTGA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MeshBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneMovement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneTicTacToe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\State.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StateMachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PostOffice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneKnight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneQueen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StatesShark.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StatesBase.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StatesBase2.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StatesFish.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StateSoldier.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StateProjectile.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Maze.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneMaze.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneReversi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ConcreteMessages.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StateProjectile2.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StateArcher.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StateSoldier2.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StateArcher2.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StateTank2.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StateTank.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StatesTower.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StatesTower2.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneTurn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StateEnemy.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StatePlayer.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TurnManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StateHealer.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneFlappyBird.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Geometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LoadOBJ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LoadTGA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MeshBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneMovement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneTicTacToe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\shader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\State.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StateMachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ConcreteMessages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Message.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ObjectBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PostOffice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneQueen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneKnight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StatesBase.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StatesBase2.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StatesFish.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StateSoldier.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StatesShark.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StateProjectile.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneMaze.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Maze.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneReversi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StateProjectile2.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StateArcher.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StateSoldier2.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StateArcher2.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StateTank.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StateTank2.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StatesTower.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StatesTower2.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneTurn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StateEnemy.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StatePlayer.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TurnManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StateHealer.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneFlappyBird.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NeuralNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\comg.fragmentshader">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\comg.vertexshader">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
