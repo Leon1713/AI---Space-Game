@@ -167,7 +167,7 @@ void SceneBase::Init()
 	meshList[GEO_ARCHER2] = MeshBuilder::GenerateQuad("Archer2", Color(1, 1, 1));
 	meshList[GEO_ARCHER2]->textureID = LoadTGA("Image//Archer2.tga");
 	meshList[GEO_BG] = MeshBuilder::GenerateQuad("bg", Color(1, 1, 1));
-	meshList[GEO_BG]->textureID = LoadTGA("Image//background-day.tga");
+	meshList[GEO_BG]->textureID = LoadTGA("Image//grid20.tga");
 	meshList[GEO_SIDEBAR] = MeshBuilder::GenerateQuad("blackquad", Color(0, 0, 0));
 	meshList[GEO_CHARACTER] = MeshBuilder::GenerateQuad("bird", Color(1, 1, 1));
 	meshList[GEO_CHARACTER]->textureID = LoadTGA("Image//yellowbird-downflap.tga");
